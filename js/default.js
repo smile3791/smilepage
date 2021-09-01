@@ -73,9 +73,15 @@ function bannerZoom() {
 		} else {
 		$('.banner').addClass('active');
 	}
+	if ( zoom <= 0.84) {
+		$('.banner .scroll').removeClass('white');
+	} else {
+		$('.banner .scroll').addClass('white');
+	}
 	if ( zoom <= 0.6 ) {
 		$('.banner .img-cont').css('opacity', 0);
 		$('.banner .intro-word').removeClass('white');	
+
 	} else {
 		$('.banner .img-cont').css('opacity', 1);
 		$('.banner .intro-word').addClass('white');

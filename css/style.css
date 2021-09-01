@@ -78,8 +78,11 @@ body { -ms-overflow-style:none; height:100%; width:100vw; overflow:auto; }
 
 .banner .scroll { position:fixed; left:50%; bottom:-40px; text-align:center; mix-blend-mode:exclusion; transform:translateX(-50%); transition:0.6s ease-in; z-index:50; }
 .banner.active .scroll { bottom:40px; }
+.banner .scroll.white { mix-blend-mode: unset; }
 .banner .scroll:before { content:'SCROLL'; display:block; color:#FAF9E7; font-size:12px; letter-spacing:0.2em; text-shadow:0 0 8px #2E2E2B; }
+.banner .scroll.white:before {  color:#fff; text-shadow: 0 0 4px #0006; }
 .banner .scroll:after { left:50%; content:''; display:block; width:8px; height:8px; border:solid #FAF9E7; border-width:0 2px 2px 0; border-radius:1px; transform:translateX(-50%) rotate(45deg); animation:roll 2s ease-out infinite; }
+.banner .scroll:after { border-color:#fff; filter:drop-shadow(0 0 4px #0006); }
 
 
 .banner .intro-word { position:fixed; top:50%; left:50%; display:flex; flex-flow:column wrap; align-items:center; color:#2E2E2B; transform:translate(-50%, -50%); }
