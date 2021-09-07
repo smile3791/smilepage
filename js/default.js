@@ -68,8 +68,6 @@ function bannerZoom() {
 	
 	if ( zoom >= 1 ) { zoom = 1; };
 	$('.banner .img-cont').css({'height': parseInt(zoom*100) + 'vh'});
-	/* ha = parseInt(zoom*10)*10;
-	$('.banner .img-cont').removeClass().addClass('img-cont zoom-'+ ha); */
 	if ( scrollPos >= bnBottom*0.9 ) {
 		$('.banner').removeClass('active');
 		} else {
