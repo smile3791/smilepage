@@ -67,13 +67,13 @@ function bannerZoom() {
 	var zoom =((winH*0.5)/(scrollPos + winH*0.5))*1.6;
 	
 	if ( zoom >= 1 ) { zoom = 1; };
-	$('.banner .img-cont').css({'width': zoom*100 + 'vw', 'height': zoom*100 + 'vh'});
+	$('.banner .img-cont').css({/*'width': zoom*100 + 'vw',*/ 'height': zoom*100 + 'vh'});
 	if ( scrollPos >= bnBottom*0.85 ) {
 		$('.banner').removeClass('active');
 		} else {
 		$('.banner').addClass('active');
 	}
-	if ( zoom <= 0.84) {
+	if ( zoom <= 0.9) {
 		$('.banner .scroll').removeClass('white');
 	} else {
 		$('.banner .scroll').addClass('white');
