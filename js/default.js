@@ -68,7 +68,7 @@ function bannerZoom() {
 	
 	if ( zoom >= 1 ) { zoom = 1; };
 	$('.banner .img-cont').css({'height': parseInt(zoom*100) + 'vh'});
-	if ( scrollPos >= bnBottom*0.9 ) {
+	if ( scrollPos >= bnBottom*0.85 ) {
 		$('.banner').removeClass('active');
 		} else {
 		$('.banner').addClass('active');
@@ -78,13 +78,16 @@ function bannerZoom() {
 	} else {
 		$('.banner .scroll').addClass('white');
 	}
-	if ( zoom <= 0.5 ) {
-		$('.banner .img-cont').css('opacity', 0);
+	if ( zoom <= 0.5 ) {		
 		$('.banner .intro-word').removeClass('white');	
 
 	} else {
-		$('.banner .img-cont').css('opacity', 1);
 		$('.banner .intro-word').addClass('white');
+	}
+	if ( zoom <= 0.4 ) {
+		$('.banner .img-cont').css('opacity', 0);
+	} else {
+		$('.banner .img-cont').css('opacity', 1);
 	}
 }
 	
