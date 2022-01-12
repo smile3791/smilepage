@@ -515,7 +515,7 @@ body {
     &:before {
         @extend %skewY-block;
         background-color: $color-dark-gray;
-        outline: 8px solid $color-red;
+        /* outline: 8px solid $color-red; */
     }
     .current-title {
         top: 24%;
@@ -574,7 +574,7 @@ body {
     &:before {
         @extend %skewY-block;
         background-color: $color-white;
-        outline: 8px solid $color-second;
+        /* outline: 8px solid $color-second; */
     }
     .part {
         flex-direction: row-reverse;

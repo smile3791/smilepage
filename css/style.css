@@ -696,7 +696,7 @@ body {
 /* about */
 .about:before {
   background-color: #2E2E2B;
-  outline: 8px solid #FF3633;
+  /* outline: 8px solid $color-red; */
 }
 
 .about .current-title {
@@ -791,7 +791,7 @@ body {
 /* graphic */
 .graphic:before {
   background-color: #FFFFFF;
-  outline: 8px solid #255578;
+  /* outline: 8px solid $color-second; */
 }
 
 .graphic .part {
