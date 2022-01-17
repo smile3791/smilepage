@@ -68,7 +68,7 @@
 		{'id':'09', 'date':'2021/03', 'title':'跳進上帝的湛藍水族箱：帛琉', 'caption':'感受多樣海洋物種與太平洋湛藍的總和', 'cover':'2021_03', 'href':'https://www.bwt.com.tw/action/2021/bluepalau'},
 		{'id':'10', 'date':'2021/07', 'title':'機+酒最快速!最省錢!最安心!', 'caption':'最多全球航班機票和酒店任你組合!', 'cover':'2021_04', 'href':'https://www.bwt.com.tw/action/2021/tickethotel'},
 		{'id':'11', 'date':'2021/10', 'title':'享受自己的輕旅行', 'caption':'呼朋伴友的精彩行，說走就走遊台灣！', 'cover':'2021_05', 'href':'https://www.bwt.com.tw/action/2021/buspapago'},
-		{'id':'11', 'date':'2021/10', 'title':'享受自己的輕旅行', 'caption':'呼朋伴友的精彩行，說走就走遊台灣！', 'cover':'2022_01', 'href':'https://www.bwt.com.tw/action/2022/kyushutravel'},
+		{'id':'11', 'date':'2021/10', 'title':'2022九州新玩法', 'caption':'2022九州全新玩法、潛力新景點，等待你來發現～', 'cover':'2022_01', 'href':'https://www.bwt.com.tw/action/2022/kyushutravel'},
 	];
 
 	var itemWeb = $('.web .item-cont');
