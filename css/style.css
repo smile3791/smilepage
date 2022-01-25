@@ -557,7 +557,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #FAF9E7;
+  background-color: #FAF9E799;
   width: 100%;
   padding: 12px;
   text-align: center;
@@ -599,7 +599,7 @@ body {
   top: -1px;
   display: block;
   background-color: #FAF9E7;
-  width: 2px;
+  width: 1px;
   height: 0;
   -webkit-transform: skewY(-60deg);
           transform: skewY(-60deg);

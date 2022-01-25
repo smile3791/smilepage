@@ -402,7 +402,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: $($color-main)+$(99);
+    background-color: #{$color-main}#{99};
     width: 100%;
     padding: 12px;
     text-align: center;
